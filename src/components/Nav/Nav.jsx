@@ -13,7 +13,7 @@ const Nav = () => {
                 <a
                     target="_blank"
                     className="nav-aam-link"
-                    href="https://www.linkedin.com/in/shrajan-pandey-a38033200/"
+                    href="https://www.linkedin.com/in/kishan-gupta-902abb236/"
                     rel="noreferrer"
                 >
                     Find Me Here
