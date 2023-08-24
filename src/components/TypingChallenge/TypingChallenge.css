@@ -1,0 +1,79 @@
+.typing-challenge {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.751);
+    justify-content: center;
+}
+
+.timer-container {
+    margin: 16px;
+    /* margin-bottom: 0; */
+}
+
+.timer {
+    font-size: 38px;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+}
+
+.timer-info {
+    margin: 0;
+    margin-top: -5px;
+    color: #dd5044;
+    font-size: 20px;
+    text-align: center;
+}
+
+.textarea-container {
+    margin: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    width: 80%;
+}
+
+.textarea-left,
+.textarea-right {
+    display: flex;
+    width: 50%;
+    flex-grow: 1;
+}
+
+.textarea {
+    background-color: #566675;
+    color: whitesmoke;
+    text-align: left;
+    flex-grow: 1;
+    height: 400px;
+    width: 100%;
+    padding: 10px;
+    line-height: 18px;
+    flex-wrap: wrap;
+    box-shadow: 0 1px 3px #7ba3f4, 0 1px 2px #7ba3f4;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: scroll;
+}
+
+.textarea:hover {
+    box-shadow: 0 7px 14px whitesmoke, 0 5px 5px whitesmoke;
+}
+
+.textarea::-webkit-scrollbar {
+    display: none;
+}
+
+.textarea {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.test-paragraph {
+    font-size: 12px;
+    background: #272a32;
+    padding: 12px;
+    /* display: flex;
+    flex-direction: row; */
+}

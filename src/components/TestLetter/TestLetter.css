@@ -1,0 +1,17 @@
+.test-letter {
+    /* font-weight: 600; */
+    font-size: 19px;
+    line-height: 19px;
+}
+
+.test-letter-not-attempted {
+    color: #566675;
+}
+
+.test-letter-incorrect {
+    color: #ed6a65;
+}
+
+.test-letter-correct {
+    color: #e8f6ef;
+}
